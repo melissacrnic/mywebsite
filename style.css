@@ -23,7 +23,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 body{
   
-    font-family: 'BenchNine', sans-serif;
+  font-family: 'BenchNine', sans-serif;
 	font-weight: 200;
 	text-transform: lowercase;
 	color: black;
@@ -95,8 +95,8 @@ a.symbol:before {
     
 }
 
-a:link {color: black; text-decoration: none;}     
-a:visited {color: black;text-decoration: none;}  
+a:link {color: grey; text-decoration: none;}     
+a:visited {color: grey;text-decoration: none;}  
 a:hover {color:black; text-decoration:none} 
 a:active {color: #5439B8;}
 
@@ -106,7 +106,7 @@ a:active {color: #5439B8;}
 .navbar-1.navbar-default {
 	background-color: #ffffff;
 	letter-spacing: 1.5px;
-	padding: 10px 0;
+	padding: 5px 0;
 
 }
 
@@ -144,8 +144,9 @@ font-size: 20px;
 
 
 .welcome-1{
-	background-image: url("images/photo6.jpg");
-	min-height: 650px;
+	background-image: url("images/MS0081.jpg");
+  width:1400px;
+	min-height: 770px;
 	height: 50vh;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -161,7 +162,7 @@ font-size: 20px;
 
 .welcome-1 img {
 	width: 400px;
-	margin-top: 50px;
+	margin-top: 65px;
 	margin-left: 50px;
 }
 
@@ -170,17 +171,16 @@ font-size: 20px;
 ======================================== */
 .footer-4{
 	border-top: 1px solid #f4f4f4;
-	padding: 20px 0;
-}
-.footer-4 .pull-left{
-	font-size: ;
+	padding: 15px 0;
+  text-align: center;
+
 }
 
 .footer-4 .copyright {
 	font-size: 12px;
-	font-weight: 400;
+	font-weight: 300;
 	text-transform: uppercase;
-	font-weight: bold;
+	
 }
 
 
